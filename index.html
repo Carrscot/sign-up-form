@@ -27,9 +27,30 @@
                 You <em>know</em> you want to.           
             </p>
         </header>
-        <form>
+        <form action='' method='get' class='speaker-form'>
+      
+            <div class='form-row'>
+              <label for='first-name'>First Name</label>
+              <input id='first-name' name='first-name' type='text'/>
+            </div>
+      
+            <div class='form-row'>
+                <label for='last-name'>Last Name</label>
+                <input id='last-name' name='last-name' type='text'/>
+            </div>
 
+            <div class='form-row'>
+              <label for='email'>Email</label>
+              <input id='email'
+                     name='email'
+                     type='email'
+                     placeholder='joe@example.com'/>
+            </div>
 
+            <div class='form-row'>
+                <label for='phone-number'>Phone Number</label>
+                <input type="tel" id="tel" name="tel" />
+              </div>
         </form>
 
     </div>
