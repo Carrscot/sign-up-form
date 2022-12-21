@@ -1,16 +1,47 @@
 body {
     background-image: url('background.jpg');
     background-size: 1000px;
-    display: felx;
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0;
+}
+
+.mainImage {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 35%;
 }
 
 .mainHeading {
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgb(5, 5, 5, 0.5);
+    margin-top: 30%;
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.imageFooter {
+margin-top: 100%;
+display: flex;
+justify-content: center;
+color: aliceblue;
+}
+
+img {
+    max-width: 125px;
+    height: 125px;
+    padding: 5px;
 }
 
 .formContainer {
-    margin-left: 30%;
     background-color: rgb(252, 252, 252);
     height: 1000px;
+    width: 1500px;
 }
