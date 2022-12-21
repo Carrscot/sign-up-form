@@ -1,0 +1,16 @@
+body {
+    background-image: url('background.jpg');
+    background-size: 1000px;
+    display: felx;
+}
+
+.mainHeading {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.formContainer {
+    margin-left: 30%;
+    background-color: rgb(252, 252, 252);
+    height: 1000px;
+}
