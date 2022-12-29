@@ -68,7 +68,7 @@ img {
 .formBody {
     display: flex;
     flex-direction: row;
-    background-color: blue;
+    background-color: rgb(252, 255, 215);
     padding: 2%;
     font-size: 15px;
     box-shadow: 0 0 10px rgb(0, 0, 0);
@@ -95,8 +95,21 @@ img {
     padding: 5px;
 }
 
+.form-row input {
+    border-radius: 3px;
+    padding: 3px;
+    border: 1px solid;
+}
+
 .form-row-one, .form-row-two {
     display: flex;
     flex-direction: column;
+
+}
+
+:focus {
+    outline: none !important;
+    border: 1px solid rgb(0, 174, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 
 }
