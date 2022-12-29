@@ -48,7 +48,7 @@ img {
 }
 
 .formHeader {
-    background-color: rgb(241, 255, 255);
+    background-color: rgb(255, 254, 241);
     padding-top: 10%;
     padding-left: 2%;
     padding-bottom: 2%;
@@ -58,7 +58,7 @@ img {
 }
 
 .call {
-    background-color: bisque;
+    background-color: rgb(255, 254, 241);
     padding: 10px;
     padding-left: 2%;
     font-size: 25px;
@@ -71,11 +71,11 @@ img {
     background-color: rgb(252, 255, 215);
     padding: 2%;
     font-size: 15px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
 
 .footer {
-    background-color: rgb(168, 110, 110);
+    background-color: rgb(255, 254, 241);
     padding-top: 2%;
     padding-bottom: 15%;
     padding-left: 2%;
@@ -107,9 +107,9 @@ img {
 
 }
 
-:focus {
+input:focus {
     outline: none !important;
-    border: 1px solid rgb(0, 174, 255);
+    border: 1px solid rgb(0, 102, 255);
     box-shadow: 0 0 10px rgb(0, 0, 0);
 
 }
