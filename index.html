@@ -29,38 +29,46 @@
         <form action='' method='get' class='speaker-form'>
           <div class = 'call'>Let's do this!</div>
           <div class ='formBody'>
-            <div class='form-row'>
-              <label for='first-name'>First Name</label>
-              <input id='first-name' name='first-name' type='text'/>
-            </div>
-      
-            <div class='form-row'>
-                <label for='last-name'>Last Name</label>
-                <input id='last-name' name='last-name' type='text'/>
-            </div>
-
-            <div class='form-row'>
-              <label for='email'>Email</label>
-              <input id='email'
-                     name='email'
-                     type='email'
-                     placeholder='joe@example.com'/>
-            </div>
-
-            <div class='form-row'>
-                <label for='phone-number'>Phone Number</label>
-                <input type="tel" id="tel" name="tel" />
+            
+            <div class = 'form-row-one'>
+              <div class='form-row'>
+                <label for='first-name'>First Name</label>
+                <input id='first-name' name='first-name' type='text'/>
               </div>
+
+              <div class='form-row'>
+                <label for='email'>Email</label>
+                <input id='email'
+                      name='email'
+                      type='email'
+                      placeholder='joe@example.com'/>
+              </div>
+
 
               <div class='form-row'>
                 <label for='password'>Password</label>
                 <input id='password' name='password' type='password' required>
               </div>
 
-              <div class='form-row'>
-                <label for='confirm-password'>Confimrm Password</label>
-                <input id='confrim-password' name='confirm-password' type='password' required>
+            </div>
+            
+            <div class ='form-row-two'>
+              <div class='form-row '>
+                  <label for='last-name'>Last Name</label>
+                  <input id='last-name' name='last-name' type='text'/>
               </div>
+
+              <div class='form-row'>
+                  <label for='phone-number'>Phone Number</label>
+                  <input type="tel" id="tel" name="tel" />
+                </div>
+
+                <div class='form-row'>
+                  <label for='confirm-password'>Confimrm Password</label>
+                  <input id='confrim-password' name='confirm-password' type='password' required>
+                </div>
+            </div>
+
           </div>
 
         <div class ='footer'>      
