@@ -66,6 +66,8 @@ img {
 }
 
 .formBody {
+    display: flex;
+    flex-direction: row;
     background-color: blue;
     padding: 2%;
     font-size: 15px;
@@ -82,4 +84,19 @@ img {
 
 .submit-row {
     padding-bottom: 25px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    margin: 10px;
+    margin-right: 150px;
+    padding: 5px;
+}
+
+.form-row-one, .form-row-two {
+    display: flex;
+    flex-direction: column;
+
 }
